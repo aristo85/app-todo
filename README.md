@@ -12,16 +12,19 @@ todo-app/
 
 ---
 
-## 🛠️ **Local Installation:**
-
-### **1. Clone the Repository:**
+ # Clone the Repository:
 First, clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/todo-app.git
 cd todo-app
+git submodule update --init --recursive
 ```
 
-### **2. Install Dependencies:**
+## 🛠️ **Local Installation:**
+
+
+
+### **1. Install Dependencies:**
 
 #### **Frontend (React):**
 Navigate to the `react-todo` directory and install dependencies:
@@ -38,7 +41,7 @@ Navigate to the `nest-todo` directory and install dependencies:
 cd react-todo
 npm install
 ```
-### **3. Run the Projects Locally:**
+### **2. Run the Projects Locally:**
 
 #### **Start the Backend (Nest.js):**
 Start the backend server:
